@@ -34,7 +34,7 @@ function onMessageHandler(target, context, msg, self) {
         client.say(target, `You rolled a ${num}`);
         console.log(`* Executed ${commandName} command`);
     } else if (commandName === '!naber') {
-        client.say(target, 'Sanane amk');
+        client.say(target, 'Muazzam');
     } else {
         console.log(`* Unknown command ${commandName}`);
     }
